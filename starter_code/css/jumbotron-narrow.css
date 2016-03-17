@@ -2,6 +2,8 @@
 body {
   padding-top: 20px;
   padding-bottom: 20px;
+background-image:url("Downloads/giphy.gif");
+
 }
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
@@ -45,10 +47,12 @@ body {
 .jumbotron {
   text-align: center;
   border-bottom: 1px solid #e5e5e5;
+  background:pink
 }
 .jumbotron .btn {
   padding: 14px 24px;
   font-size: 21px;
+  background:green;
 }
 
 /* Supporting marketing content */
