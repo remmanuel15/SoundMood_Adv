@@ -20,7 +20,7 @@ SC.initialize({
 });
 // stream track id 293
 
-
+var kingPlayer;
 
 // ===========================
 //
@@ -127,7 +127,7 @@ function searchTracks(mood) {
 function playTrack(trackid) {
   SC.stream('/tracks/' + trackid).then(function(player) {
     player.play();
-
+kingPlayer=player;
 
   });
 }
